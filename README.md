@@ -2,8 +2,9 @@
 
 ## Todos:
 
-1. Post wireframes
-2. Design Review
+- Waiting on response from lecturer about evaluations
+
+1. Design Review
 	- Cognitive evaluation of some elses design
 2. Background
 	- Decide on Desktop/Mobile
@@ -15,12 +16,14 @@
 
 - 1 week evaluation
 	- Finish evals by wednesday
-	- Thursday 11am present evals -> start background
+	- Thursday 11am present evals
+		- start background
+		- Organise tools
 - 2 week prototyping 
 	- lofi start (13th May)
-	- 20th may hifi
+	- hifi start (20th may)
 - 1 week video/documentation/reflection
-	- 27th may start
+	- start (27th may)
 
 ## Regular Meetings
 
