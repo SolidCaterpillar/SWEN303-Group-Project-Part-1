@@ -8,10 +8,9 @@
 
 ## Timeframe
 
-1 week evaluation
-- 
-2 week prototyping
-1 week video/documentation/reflection
+- 1 week evaluation
+- 2 week prototyping
+- 1 week video/documentation/reflection
 
 ## Regular Meetings
 
