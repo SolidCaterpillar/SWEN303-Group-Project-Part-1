@@ -8,7 +8,7 @@
 
 ## Evaluations Diagram
 
-![Diagram](https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/blob/main/Meetings/Meeting1_Report_Planning.jpg?ref_type=heads) 
+![Diagram](https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Meetings/Meeting1_Report_Planning.jpg) 
 
 ## Heuristic Evaluation
 
