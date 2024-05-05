@@ -1,6 +1,6 @@
 # SWEN Meeting 2
 
-**Thursday 10-12pm:**\
+**Thursday 10-12pm:**
 
 - Present **Heuristic Evaluation**
 - Start **Cognitive Walkthroughs** (1st hour)
