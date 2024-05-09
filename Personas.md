@@ -1,5 +1,7 @@
 # Personas
 
+<br>
+
 ## Alex Singh
 
 <img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Alex_Singh_Persona_Image.png?ref_type=heads" alt="Alex Singh" width="200"/>
@@ -14,6 +16,8 @@
 - **Interests:** Participates in outdoor activities like hiking, biking, and running. Avid reader with interests from fiction to personal development. Values continuous learning and often attends industry conferences and workshops.
 - **Personality:** Enjoys staying active and values continuous learning.
 - **Goals:** Aims to continue growing in their career, take on a leadership role, and become a respected thought leader in the software industry.
+
+<br>
 
 ## Bob Dylan
 
@@ -30,6 +34,8 @@
 - **Personality:** Ambitious and socially active, attending university events and finance-related seminars.
 - **Goals:** Achieve a high GPA, secure internships, and eventually land a stable job in finance. Aims to improve technical skills.
 
+<br>
+
 ## John Baker
 
 <img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/John_Baker_Persona_Image.png?ref_type=heads" alt="John Baker" width="200"/>
@@ -45,6 +51,8 @@
 - **Personality:** Meticulous and careful since his accident.
 - **Goals:** Continue working in construction focusing on safety and accident prevention, mentor younger workers, advocate for better safety measures.
 
+<br>
+
 ## Abby Jones
 
 <img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Abby_Jones_Persona_Image.png?ref_type=heads" alt="Abby Jones" width="200"/>
@@ -59,6 +67,8 @@
 - **Interests:** Incorporates bright colours and pleasing aesthetics into presentations. Believes aesthetics can make historical education more engaging.
 - **Personality:** Optimistic and dedicated despite financial struggles.
 - **Goals:** Complete PhD with notable publications, secure a post-doctoral position or academic role, make historical studies more accessible and engaging.
+
+<br>
 
 ## Debbie Smith
 
