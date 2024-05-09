@@ -2,7 +2,7 @@
 
 ## Alex Singh
 
-
+<img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Alex_Singh_Persona_Image.png?ref_type=heads" alt="Alex Singh" width="200"/>
 
 - **Name:** Alex Singh (they/them)
 - **Age:** 32
@@ -17,6 +17,8 @@
 
 ## Bob Dylan
 
+<img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Bob_Dylan_Persona_Image.png?ref_type=heads" alt="Bob Dylan" width="200"/>
+
 - **Name:** Bob Dylan (he/him)
 - **Age:** 19
 - **Occupation:** University Student
@@ -29,6 +31,8 @@
 - **Goals:** Achieve a high GPA, secure internships, and eventually land a stable job in finance. Aims to improve technical skills.
 
 ## John Baker
+
+<img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/John_Baker_Persona_Image.png?ref_type=heads" alt="John Baker" width="200"/>
 
 - **Name:** John Baker (he/him)
 - **Age:** 43
@@ -43,6 +47,8 @@
 
 ## Abby Jones
 
+<img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Abby_Jones_Persona_Image.png?ref_type=heads" alt="Abby Jones" width="200"/>
+
 - **Name:** Abby Jones (she/her)
 - **Age:** 25
 - **Occupation:** PhD Student in History
@@ -55,6 +61,8 @@
 - **Goals:** Complete PhD with notable publications, secure a post-doctoral position or academic role, make historical studies more accessible and engaging.
 
 ## Debbie Smith
+
+<img src="https://gitlab.ecs.vuw.ac.nz/course-work/swen303/2024/project1/t7/swen303-assignment3/-/raw/main/Miscellaneous/Debbie_Smith_Persona_Image.png?ref_type=heads" alt="Debbie Smith" width="200"/>
 
 - **Name:** Debbie Smith (she/her)
 - **Age:** 55
