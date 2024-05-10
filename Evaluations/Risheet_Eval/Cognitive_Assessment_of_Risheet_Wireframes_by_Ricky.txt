@@ -1,0 +1,117 @@
+User Task 1 - Add a new payment detail within a group and make the payment
+
+Speaker 1  0:00  
+Okay, you're doing tasks one, the tasks, the first task is to add new payment details within the roof and make it payment. Your persona is Alex Singh for like outdoor. He's a senior software developers, like marco functionality and efficiently. Next slide please.
+
+Speaker 2  0:19  
+For us user task
+
+okay, I'm looking here. And my user task is to add a new payment detail within a group and make the payment. Yep. So it's my first instruction.
+
+Speaker 1  0:38  
+So find how to make a new payment in this slide.
+
+Speaker 2  0:46  
+This is horrible. Time, I'm joking. Let's see, I see an add expenses button. Okay. That's what I would press if I were in if I wanted to add a new payment.
+
+Speaker 1  1:01  
+Okay, next slide, please.
+
+Speaker 2  1:04  
+Okay, now that I've gone to here, I want to add, select a group, I guess, let's say group three or group four, Let's go with group four. Okay. And given amount, give a type. Give a receipt if I haven't, select the members that applies to and then I would press confirm. 
+
+Speaker 1  1:27  
+Okay, sweet. Next slide. 
+
+Speaker 2  1:30  
+Okay. Good.
+
+Speaker 1  1:42  
+Okay, take your time.
+
+Speaker 2  1:48  
+What? Is this a confirmation pop up? Okay, this is a terrible pop up. I blame your Risheet. But I would press confirm, I guess. Okay.
+
+Speaker 1  2:03  
+Next slide, please. 
+
+Speaker 2  2:04  
+Okay, I can see that the payment has been made. So I'm now happy and that's my life.
+
+User Task 2 - Inform Alex that he made a wrong payment
+
+Speaker 1  2:10  
+Okay, so, okay, in task two, you have a form Alex, that he made a wrong payment. Your person that is Abby Jones. She is 25 years old. Taking a PhD in history. She struggled in finance. And she liked bright colors and pleasing aesthetics. Next slide, please. Okay.
+
+Speaker 2  2:36  
+All right, starting on this page here. And I'm want to inform Alex, that he made a wrong payment. So I would say I probably want to look at the expenses button. That would be my intention. I'm not certain it could either be the expenses button if I wanted to go and look at a form or expense and see how it was paid. Or I could go to the friends slash Groups button and see if I could do it from there. But I'm gonna go with my gut and say expenses button.
+
+Speaker 1  3:10  
+Okay, next slide, please.
+
+Speaker 2  3:15  
+Okay, I'm now magically somewhere, view payment. See this payment payment ID member? One type of payment, etc.
+
+I guess I would try the messages button. Okay. So although my first instinct was maybe to press on one of the members to indicate I wanted to message them. All right. So I'm now on the messages button. I am on group two. I don't know what group two stands for, or what were all the different groups mean? But what I can see is that one of these probably means Alex and so I'm going to click on that one. Okay. Great. Now that I'm on a text message thing with direct chat with Alex, I'm gonna yell at him typing a message, press Enter or the send button or whatever, and tell them how stupid he is and how he didn't make the payment. Right? And then he's a horrible person, and then I'm about to murder him with a knife.
+
+Speaker 1  4:21  
+Okay sweet, next slide, please. 
+
+Speaker 2  4:25  
+Sweet, I can see the death threats and everything that I sent. I don't know where the payment details comes. I guess that would have been the attached payment ID button but it didn't even notice that because that was so tiny. So I've seen it happen. And I'm now happy that my death threats got through to him.
+
+User Task 3 - Remind a group of tenants to pay an overdue bill and add a late penalty to it.
+
+Speaker 1  4:44  
+Okay, next slide, please. Okay, the third task is to remind a group of tenants to pay overdue bills and add the late payment, late payment penalty do it. The persona is Debbie Smith. 60 plus years old, aiming for the base functionality, it of just flatmate. She said tech illiteracy, no higher education, but know how to check an email. And she is property manager. Next slide, please.
+
+Speaker 2  5:17  
+Sounds good. Just make sure that you're like talking towards the done. So I'm trying to remind a group of tenants that to pay an overdue bill and add a late penalty to it. Okay. So I either want to go to like a group, which there's no built in thing here, that would take me two groups. So then my other option would be to go through a specific bill, and then see if I can go there. So a Bill, is probably the Manage bills button. So I'm going to say manage bills button at the bottom there.
+
+Speaker 1  5:52  
+Okay. Next slide, please.
+
+Speaker 2  5:56  
+All right, I now see. I assume that I wasn't meant to be on that I wasn't meant to press that button. Because suddenly come up with a bill, which means that I was probably meant to click on something from this table over here of recent bills. But sure, whatever. However I got here, I'm now looking at a specific bill. And I'm thinking, man, remind a group of tenants to pay this. So I'm going to stick an overcharge of $500,000 to drown them in debt. And then I'm going to say send a reminder. Oh, no, that might just be my that might just be a textual representation of the overdue charges. It's not something I can edit. You tricked me with the textbox, Risheet. I'm going to press the send reminder button.
+
+Speaker 1  6:47  
+Okay, next slide, please.
+
+Speaker 2  6:48  
+Okay. Send reminder, it's taken me to a group group chat, and I assume, and I'm just gonna say type of a really strongly worded message. And this time, I'm going to look carefully attached payments doesn't make sense, because it seems like no one has paid yet. Since last receive payment doesn't make sense. How does one receive a payment anyway? And then guess I'll just press a type of really strongly worded message add an emoji on the end and press the send button.
+
+Speaker 1  7:22  
+Okay, next slide, please.
+
+Speaker 2  7:25  
+Okay, it's somehow come up with Bill details. I don't know where those came from. But you know, sure. But I can at least see that the message has been sent.
+
+Speaker 1  7:35  
+Okay, next slide.
+
+Speaker 2  7:39  
+I assume that I'm now back to the main page. So nothing more for me to do.
+
+User Special Task - Understand how a particular feature in the app works (get help) to finish a task OR to gain extra knowledge on Budgeting by watching a video
+
+Speaker 1  7:46  
+Okay, next slide, please. Okay, we have a special task. A special task is to understand the help features in this app. By watching a video. Your persona is John Baker is 40 plus year old, he had an accident. Take long time to heal up. That he loses right hand. Loses his right hand.
+
+Speaker 2  8:10  
+How do you heal up from losing? Alright, going.
+
+Speaker 1  8:14  
+He's a construction guy. Okay, sweet. That's next slide. Please
+
+Speaker 2  8:19  
+understand how a particular feature in the app works sweet. Over here, I'm seeing a help floating button at the top right. So my instincts tell me that if I want to understand how something works, I should press that help floating button.
+
+Speaker 1  8:34  
+Yes, yes.
+
+Speaker 2  8:37  
+Okay, it's now taking me to a little help page. I'm going to decide that I want to learn a video or want to watch a video on hacking. Whatever that first video is about. Okay. Great. I'm gonna press the play button in the middle of that big video player icon.
+
+Speaker 1  8:57  
+Okay, sweet.
+
