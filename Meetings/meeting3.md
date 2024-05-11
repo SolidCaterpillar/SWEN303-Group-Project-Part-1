@@ -5,6 +5,20 @@
 - [x] Finish presenting* number 4 (evals)
 - [ ] Finish background
 
+## Overall
+
+**Inconsistent Iconography and Layout:**
+
+Confusion caused by inconsistent icons and lack of text labels, leading to difficulties in understanding the functionality.
+
+**System Feedback and Error Prevention:**
+
+Absence of feedback mechanisms like confirmation dialogs or success notifications, coupled with insufficient error prevention features.
+
+**Information Overload and Clarity:**
+
+Interfaces are overcrowded, lacking clear hierarchy or organization, which contributes to cognitive overload and confusion.
+
 ## Z'arn's Evaluation:
 
 **Heuristics:**
