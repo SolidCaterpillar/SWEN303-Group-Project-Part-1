@@ -1,11 +1,11 @@
-# SWEN Meeting 3 Notes
+# SWEN Meeting Notes
 
 ## To-do:
 
-1. Finish number 4
-2. Finish background
+- [x] Finish presenting* number 4 (evals)
+- [ ] Finish background
 
-## Z'arns' Evaluation:
+## Z'arn's Evaluation:
 
 **Heuristics:**
 
@@ -41,3 +41,71 @@
  
 - More error prevention needed.
 - Stronger information hierarchy and spacing.
+
+## Mazen's Evaluation:
+
+**Heuristics:**
+
+- **Changing icons to avoid confusion** (house button for manage flat)
+- Avoid trapping the user on a page (keep home/settings etc at the top on all pages)
+- Provide options to navigate past transactions by year, not just month
+- Clearer indication of what transactions are expenses/incomes? (colours or plus/minus symbols)
+- **Consistency** in whether things are centred or left-aligned.
+
+**Cognitive:**
+
+- Unclear of positioning of icons
+- Can't rely on just icons (up for interpretation) 
+	- prefer a combination of text and icons
+
+## Hamish's Evaluation:
+
+**Heuristic:**
+
+- Lack of confirmation dialog
+- Unneeded 'April Budget' at top (doesn't need on settings)
+- Confusing icons 
+- No way of removing/changing existing transactions and categories
+- Consistency on styling (between categories and savings goal)
+- Don't just have percentages, also include dollar amount
+- duplicate info*
+
+**Cognitive:**
+
+_Note, there were issues with the fact that only scenarios were shown_
+
+- Debbie got confused finding the see "more insights button", wanted to go expense page.
+
+## Alvien's Evaluation:
+
+**Heuristic:**
+
+- Unclear what charts are for
+- Avoid overcrowding, remember you can scroll to see more content
+- Avoid getting trapped. Make sure all pages have a way to exit it (have a back button on manage flat page)
+- Not sure what today/weekly/monthly buttons do at top. Make clear it only affects the chart, and not the expenses below it
+	- Maybe put buttons and chart in some card, so they're separated from expenses?
+
+**Cognitive:**
+
+- Confusion at looking at expenses
+- Confusion when something on the nav bar went into a form
+- Small boxes were a problem
+- Issues with just a plus button
+
+## Ricky's Evaluation
+
+**Heuristic:**
+
+- Misc should be at bottom of categories, not middle
+- Consistency: top bar layout changes regularly, spacing changes between pages
+- No error prevention for adding transactions
+- Unintuitive scanning for adding split payment - keep form contents in one column
+- Indicate required fields
+
+**Cognitive:**
+
+- Unclear when selecting category when creating expense - didn't know you also needed to push done
+- Confirmation modal - showing transaction added successfully would be helpful
+- Making clear what's a button (had to click pie graph)
+- Change flatmates button, confusing what's 
