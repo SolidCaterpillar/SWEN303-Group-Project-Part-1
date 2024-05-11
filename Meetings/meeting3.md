@@ -1,5 +1,8 @@
 # SWEN Meeting Notes
 
+Background:
+https://docs.google.com/document/d/1mWDC6nsQoN5yxAIjdWIe3WO9YX4P0wHBlCpKtICRBWA/edit?usp=sharing
+
 ## To-do:
 
 - [x] Finish presenting* number 4 (evals)
