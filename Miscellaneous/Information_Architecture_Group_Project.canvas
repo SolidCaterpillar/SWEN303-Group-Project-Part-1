@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"16fba3b81a5dec6e","x":-314,"y":-190,"width":250,"height":60,"color":"5","type":"text","text":"**Home Page**"},
+		{"id":"d5bbdb736e526172","x":-314,"y":-130,"width":250,"height":60,"color":"5","type":"text","text":"Owing"},
+		{"id":"7cf0f5182a4d660b","x":-314,"y":-70,"width":250,"height":60,"color":"5","type":"text","text":"Upcoming"},
+		{"id":"5c5ba623315be33c","x":292,"y":-429,"width":250,"height":60,"color":"2","type":"text","text":"**Expense**"},
+		{"id":"f1118aed8745f773","x":292,"y":-369,"width":250,"height":60,"color":"2","type":"text","text":"Manage Your Created Expense"},
+		{"id":"37dd1d13b0f22f3e","x":292,"y":-309,"width":250,"height":60,"color":"2","type":"text","text":"Search/Filter Options"},
+		{"id":"1d8d35048ee53b66","x":292,"y":-249,"width":250,"height":60,"color":"2","type":"text","text":"Add Expenses"},
+		{"id":"8cc09153b8a69e55","x":-980,"y":-375,"width":250,"height":60,"color":"4","type":"text","text":"**Pay**"},
+		{"id":"9320a90663c51121","x":-980,"y":-310,"width":250,"height":60,"color":"4","type":"text","text":"Upcoming"},
+		{"id":"885c97677f783827","x":-980,"y":-250,"width":250,"height":60,"color":"4","type":"text","text":"Settle Up"},
+		{"id":"e4a97c2a377998aa","x":-64,"y":-820,"width":250,"height":60,"color":"6","type":"text","text":"**Menu**"},
+		{"id":"5fbc41c56659dcb2","x":-64,"y":-700,"width":250,"height":60,"color":"6","type":"text","text":"Flat Management"},
+		{"id":"a916ff9cd6201d51","x":-64,"y":-760,"width":250,"height":60,"color":"6","type":"text","text":"Profile"},
+		{"id":"b95ae028910a4028","x":-64,"y":-590,"width":250,"height":60,"color":"6","type":"text","text":"App Settings"},
+		{"id":"85662c556b66c62b","x":-64,"y":-530,"width":250,"height":60,"color":"6","type":"text","text":"*Notification Management*"},
+		{"id":"75c517e5a7196091","x":-64,"y":-640,"width":250,"height":50,"color":"6","type":"text","text":"Help"},
+		{"id":"4a3dc1787fb8b754","x":-862,"y":119,"width":250,"height":60,"color":"1","type":"text","text":"**Insights**"},
+		{"id":"39757799c5407417","x":-862,"y":179,"width":250,"height":60,"color":"1","type":"text","text":"Graphs"},
+		{"id":"d8ab0a6ac509c720","x":-862,"y":239,"width":250,"height":60,"color":"1","type":"text","text":"Table"},
+		{"id":"c790b20324c1cbf6","x":-862,"y":299,"width":250,"height":60,"color":"1","type":"text","text":"Export"},
+		{"id":"8308ec3f743b9245","x":-862,"y":359,"width":250,"height":60,"color":"1","type":"text","text":"Filter Options"}
+	],
+	"edges":[
+		{"id":"1a335170eb46f8d0","fromNode":"16fba3b81a5dec6e","fromSide":"right","toNode":"5c5ba623315be33c","toSide":"left"},
+		{"id":"3b8ce3952caa982f","fromNode":"16fba3b81a5dec6e","fromSide":"left","toNode":"8cc09153b8a69e55","toSide":"right"},
+		{"id":"bd2a3611f34737d0","fromNode":"16fba3b81a5dec6e","fromSide":"top","toNode":"e4a97c2a377998aa","toSide":"left"},
+		{"id":"4ae18ca16a8e36b6","fromNode":"16fba3b81a5dec6e","fromSide":"left","toNode":"4a3dc1787fb8b754","toSide":"right"}
+	]
+}
