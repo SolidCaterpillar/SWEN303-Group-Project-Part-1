@@ -2,6 +2,12 @@
 
 - Prototype
 
+## Check you have everything installed
+
+```bash
+flutter doctor
+```
+
 ## Get dependencies
 
 ```bash
