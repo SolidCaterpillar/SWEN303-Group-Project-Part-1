@@ -2,7 +2,13 @@
 
 - Prototype
 
-## Building the project
+## Get dependencies
+
+```bash
+flutter pub get
+```
+
+## Running the project
 
 ```bash
 flutter run
