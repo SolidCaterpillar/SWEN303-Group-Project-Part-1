@@ -31,6 +31,10 @@ Contains reusable custom widgets used across different screens:
 - **custom_textfield.dart**: A custom text field widget.
 - **expense_card.dart**: A widget to display an expense entry in a card format.
 
+### `constants/`
+
+- **constants.dart**: Contains the application's constants like colors, text styles, and padding values.
+
 ## Running the App
 
 To run the app, make sure you have Flutter installed and set up. Then, use the following commands:
