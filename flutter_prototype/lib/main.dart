@@ -60,13 +60,19 @@ class _HomeScreenState extends State<HomeScreen> {
     ExpenseScreen(),
     OwingScreen(),
     InsightsScreen(),
-    SettingsScreen(),
   ];
 
   void _onTabTapped(int index) {
     setState(() {
       _currentIndex = index;
     });
+  }
+
+  void _navigateToSettings() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => SettingsScreen()),
+    );
   }
 
   @override
@@ -110,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: Text('Settings'),
                 onTap: () {
                   Navigator.pop(context);
-                  _onTabTapped(4);
+                  _navigateToSettings();
                 },
               ),
             ],
