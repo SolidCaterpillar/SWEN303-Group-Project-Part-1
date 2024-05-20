@@ -26,7 +26,11 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(color: AppColors.textSecondary),
         ),
       ),
-      home: HomeScreen(),
+      home: Container(
+        width: 375,
+        height: 812,
+        child: HomeScreen(),
+      ),
     );
   }
 }
