@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(
           bodyText1: TextStyle(color: AppColors.textPrimary),
           bodyText2: TextStyle(color: AppColors.textSecondary),
-        ), colorScheme: ColorScheme(
+        ),
+        colorScheme: ColorScheme(
           brightness: Brightness.light,
           primary: AppColors.primary,
           onPrimary: AppColors.textPrimary,
@@ -71,6 +72,51 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Expense Tracker',
+            style: TextStyle(color: AppColors.textPrimary)),
+        backgroundColor: AppColors.primary,
+        leading: Builder(
+          builder: (context) {
+            return IconButton(
+              icon: Icon(Icons.menu, color: AppColors.textPrimary),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
+        ),
+      ),
+      drawer: Drawer(
+        child: Container(
+          width: MediaQuery.of(context).size.width * 0.5,
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              DrawerHeader(
+                decoration: BoxDecoration(
+                  color: AppColors.primary,
+                ),
+                child: Text(
+                  'Menu',
+                  style: TextStyle(
+                    color: AppColors.textPrimary,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: Icon(Icons.settings, color: AppColors.textPrimary),
+                title: Text('Settings'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _onTabTapped(4);
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
       body: _screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
@@ -93,10 +139,6 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.insights),
             label: 'Insights',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
           ),
         ],
       ),
