@@ -18,12 +18,23 @@ class MyApp extends StatelessWidget {
       title: 'Expense Tracker',
       theme: ThemeData(
         primaryColor: AppColors.primary,
-        backgroundColor: AppColors.background,
         scaffoldBackgroundColor: AppColors.background,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: TextTheme(
           bodyText1: TextStyle(color: AppColors.textPrimary),
           bodyText2: TextStyle(color: AppColors.textSecondary),
+        ), colorScheme: ColorScheme(
+          brightness: Brightness.light,
+          primary: AppColors.primary,
+          onPrimary: AppColors.textPrimary,
+          secondary: AppColors.secondary,
+          onSecondary: AppColors.textSecondary,
+          error: AppColors.error,
+          onError: AppColors.textError,
+          background: AppColors.background,
+          onBackground: AppColors.textPrimary,
+          surface: AppColors.surface,
+          onSurface: AppColors.textPrimary,
         ),
       ),
       home: Container(
