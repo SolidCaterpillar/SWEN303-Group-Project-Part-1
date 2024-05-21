@@ -87,6 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+
   Widget _menuButtonAppBar(context) {
           return IconButton(
             icon: const Icon(Icons.menu, color: AppColors.textPrimary),
@@ -101,11 +102,15 @@ final List<List<Widget>> _appBarActions = [
   [ // Actions for expenses
     IconButton(
       icon: const Icon(Icons.filter_list, color: AppColors.textPrimary),
-      onPressed: _navigateToFilter,
+      onPressed: () {
+        print("Filter button pressed");
+      },
     ),
     IconButton(
       icon: const Icon(Icons.search, color: AppColors.textPrimary),
-      onPressed: _navigateToSearch,
+      onPressed: () {
+        print("Search button pressed");
+      },
     ),
   ],
   [], // No actions for owing
@@ -122,12 +127,7 @@ final List<List<Widget>> _appBarActions = [
       leading: Builder(
         builder: _menuButtonAppBar,
       ),
-      actions: <Widget>[
-        IconButton(
-          icon: const Icon(Icons.search, color: AppColors.textPrimary),
-          onPressed: _navigateToSettings,
-        ),
-      ]
+      actions: _appBarActions[_currentIndex],
     );
   }
 
