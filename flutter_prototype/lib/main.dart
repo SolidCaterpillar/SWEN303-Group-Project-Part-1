@@ -7,6 +7,7 @@ import 'screens/settings_screen.dart';
 import 'screens/insights_screen.dart';
 import 'screens/add_expense_overlay.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -66,6 +67,13 @@ class _HomeScreenState extends State<HomeScreen> {
     InsightsScreen(),
   ];
 
+  final List<String> _appBarNames = [
+    'Dashboard',
+    'Expenses',
+    'Owing',
+    'Insights',
+  ];
+
   void _onTabTapped(int index) {
     setState(() {
       _currentIndex = index;
@@ -79,24 +87,32 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  Widget _menuButtonAppBar(context) {
+          return IconButton(
+            icon: const Icon(Icons.menu, color: AppColors.textPrimary),
+            onPressed: () {
+              Scaffold.of(context).openDrawer();
+            },
+          );
+        }
+
+  
+  AppBar _buildAppBar() {
+    return AppBar(
+      title: Text(_appBarNames[_currentIndex],
+          style: TextStyle(color: AppColors.textPrimary)),
+      backgroundColor: AppColors.primary,
+      leading: Builder(
+        builder: _menuButtonAppBar,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Expense Tracker',
-            style: TextStyle(color: AppColors.textPrimary)),
-        backgroundColor: AppColors.primary,
-        leading: Builder(
-          builder: (context) {
-            return IconButton(
-              icon: const Icon(Icons.menu, color: AppColors.textPrimary),
-              onPressed: () {
-                Scaffold.of(context).openDrawer();
-              },
-            );
-          },
-        ),
-      ),
+      appBar: _buildAppBar(),
       drawer: Drawer(
         child: SizedBox(
           width: MediaQuery.of(context).size.width * 0.5,
@@ -164,4 +180,6 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
+
+
 }
