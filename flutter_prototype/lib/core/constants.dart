@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Define the colors used in the app
 class AppColors {
   static const Color primary = Color.fromARGB(255, 198, 33, 243);
   static const Color secondary = Colors.green;
