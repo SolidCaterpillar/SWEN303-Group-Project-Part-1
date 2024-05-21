@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_prototype/widgets/pie_chart.dart';
 import '../core/constants.dart';
 
 class InsightsScreen extends StatelessWidget {
@@ -12,9 +13,19 @@ class InsightsScreen extends StatelessWidget {
             style: TextStyle(color: AppColors.textPrimary)),
         backgroundColor: AppColors.primary,
       ),
-      body: const Center(
-          child: Text('Insights Content',
-              style: TextStyle(color: AppColors.textPrimary))),
+      body: Column(
+        children: [
+          Container(
+            height: 300.0, // Set a fixed height for the PieChart
+            child: MyPieChart(),
+          ),
+          const Center(
+            child: Text('Insights Content',
+                style: TextStyle(color: AppColors.textPrimary)),
+          ),
+        ],
+      ),
     );
   }
 }
+
