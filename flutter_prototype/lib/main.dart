@@ -119,9 +119,19 @@ final List<List<Widget>> _appBarActions = [
 
   AppBar _buildAppBar() {
     return AppBar(
-      title: Center(
-        child: Text(_appBarNames[_currentIndex],
-            style: TextStyle(color: AppColors.textPrimary)),
+      title: SizedBox(),
+      flexibleSpace: Container(       // Centered Tex box
+        alignment:  Alignment.center,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 20.0),
+          child: Text(_appBarNames[_currentIndex],
+            textAlign: TextAlign.center,
+            style: TextStyle(color: AppColors.textPrimary,
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
       ),
       backgroundColor: AppColors.primary,
       leading: Builder(
