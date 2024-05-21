@@ -96,15 +96,38 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         }
 
-  
+final List<List<Widget>> _appBarActions = [
+  [], // No actions for home
+  [ // Actions for expenses
+    IconButton(
+      icon: const Icon(Icons.filter_list, color: AppColors.textPrimary),
+      onPressed: _navigateToFilter,
+    ),
+    IconButton(
+      icon: const Icon(Icons.search, color: AppColors.textPrimary),
+      onPressed: _navigateToSearch,
+    ),
+  ],
+  [], // No actions for owing
+  [], // No actions for insights
+];
+
   AppBar _buildAppBar() {
     return AppBar(
-      title: Text(_appBarNames[_currentIndex],
-          style: TextStyle(color: AppColors.textPrimary)),
+      title: Center(
+        child: Text(_appBarNames[_currentIndex],
+            style: TextStyle(color: AppColors.textPrimary)),
+      ),
       backgroundColor: AppColors.primary,
       leading: Builder(
         builder: _menuButtonAppBar,
       ),
+      actions: <Widget>[
+        IconButton(
+          icon: const Icon(Icons.search, color: AppColors.textPrimary),
+          onPressed: _navigateToSettings,
+        ),
+      ]
     );
   }
 
