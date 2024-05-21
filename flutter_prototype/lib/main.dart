@@ -8,25 +8,39 @@ import 'screens/insights_screen.dart';
 import 'screens/add_expense_overlay.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Expense Tracker',
       theme: ThemeData(
         primaryColor: AppColors.primary,
-        backgroundColor: AppColors.background,
         scaffoldBackgroundColor: AppColors.background,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: TextTheme(
-          bodyText1: TextStyle(color: AppColors.textPrimary),
-          bodyText2: TextStyle(color: AppColors.textSecondary),
+        textTheme: const TextTheme(
+          bodyLarge: TextStyle(color: AppColors.textPrimary),
+          bodyMedium: TextStyle(color: AppColors.textSecondary),
+        ),
+        colorScheme: const ColorScheme(
+          brightness: Brightness.light,
+          primary: AppColors.primary,
+          onPrimary: AppColors.textPrimary,
+          secondary: AppColors.secondary,
+          onSecondary: AppColors.textSecondary,
+          error: AppColors.error,
+          onError: AppColors.textError,
+          background: AppColors.background,
+          onBackground: AppColors.textPrimary,
+          surface: AppColors.surface,
+          onSurface: AppColors.textPrimary,
         ),
       ),
-      home: Container(
+      home: const SizedBox(
         width: 375,
         height: 812,
         child: HomeScreen(),
@@ -36,6 +50,8 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -48,7 +64,6 @@ class _HomeScreenState extends State<HomeScreen> {
     ExpenseScreen(),
     OwingScreen(),
     InsightsScreen(),
-    SettingsScreen(),
   ];
 
   void _onTabTapped(int index) {
@@ -57,16 +72,69 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  void _navigateToSettings() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => SettingsScreen()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Expense Tracker',
+            style: TextStyle(color: AppColors.textPrimary)),
+        backgroundColor: AppColors.primary,
+        leading: Builder(
+          builder: (context) {
+            return IconButton(
+              icon: const Icon(Icons.menu, color: AppColors.textPrimary),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
+        ),
+      ),
+      drawer: Drawer(
+        child: SizedBox(
+          width: MediaQuery.of(context).size.width * 0.5,
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              const DrawerHeader(
+                decoration: BoxDecoration(
+                  color: AppColors.primary,
+                ),
+                child: Text(
+                  'Menu',
+                  style: TextStyle(
+                    color: AppColors.textPrimary,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+              ListTile(
+                leading:
+                    const Icon(Icons.settings, color: AppColors.textPrimary),
+                title: const Text('Settings'),
+                onTap: () {
+                  Navigator.pop(context);
+                  _navigateToSettings();
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
       body: _screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: _onTabTapped,
         selectedItemColor: AppColors.textPrimary,
         unselectedItemColor: AppColors.textSecondary,
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.dashboard),
             label: 'Dashboard',
@@ -83,10 +151,6 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Icon(Icons.insights),
             label: 'Insights',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
-          ),
         ],
       ),
       floatingActionButton: FloatingActionButton(
@@ -94,8 +158,8 @@ class _HomeScreenState extends State<HomeScreen> {
           context,
           MaterialPageRoute(builder: (context) => AddExpenseOverlay()),
         ),
-        child: Icon(Icons.add),
         backgroundColor: AppColors.primary,
+        child: const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
