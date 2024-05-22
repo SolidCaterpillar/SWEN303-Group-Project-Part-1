@@ -76,23 +76,112 @@ class ExpenseScreen extends StatelessWidget {
 
   Padding _makeExpenseCard() {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(10.0),
       child: Container(
-        width: 340,
+        width: 300,
         height: 60,
         decoration: ShapeDecoration(
-          color: Color.fromARGB(255, 185, 92, 92),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              left: 0,
+              top: 0,
+              child: Container(
+                width: 320,
+                height: 60,
+                decoration: ShapeDecoration(
+                  color: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 10.00,
+              top: 5,
+              child: SizedBox(
+                width: 126.74,
+                height: 30,
+                child: Text(
+                  'Statement',
+                  style: TextStyle(
+                    color: Color(0xFF343434),
+                    fontSize: 13,
+                    fontFamily: 'Inter',
+                    fontWeight: FontWeight.w600,
+                    height: 0,
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 10.00,
+              top: 30,
+              child: SizedBox(
+                width: 126.74,
+                height: 30,
+                child: Text(
+                  'Date',
+                  style: TextStyle(
+                    color: Color(0xFF343434),
+                    fontSize: 10,
+                    fontFamily: 'Inter',
+                    fontWeight: FontWeight.w600,
+                    height: 0,
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 180.00,
+              top: 5,
+              child: SizedBox(
+                width: 102.81,
+                height: 30,
+                child: Text(
+                  'Amount',
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Color(0xFF343434),
+                    fontSize: 13,
+                    fontFamily: 'Inter',
+                    fontWeight: FontWeight.w600,
+                    height: 0,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
 
+  // Padding _makeExpenseCard() {
+  //   return Padding(
+  //     padding: const EdgeInsets.all(8.0),
+  //     child: Container(
+  //       width: 340,
+  //       height: 60,
+  //       decoration: ShapeDecoration(
+  //         color: Color.fromARGB(255, 185, 92, 92),
+  //         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+  //       ),
+  //       child: _makeInsideExpenseCard(),
+  //     ),
+  //   );
+  // }
+
   Container _makeExpenseSection() {
     return Container(
       width: 340,
       decoration: ShapeDecoration(
-        color: Color.fromARGB(255, 112, 48, 48),
+        color: Color(0xFFBABABA),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
       ),
       child: Column(
@@ -118,7 +207,7 @@ class ExpenseScreen extends StatelessWidget {
       width: 340,
       margin: const EdgeInsets.only(top: 20, bottom: 20),
       decoration: ShapeDecoration(
-        color: Color.fromARGB(255, 134, 128, 128),
+        color: Color(0xFFE1E1E1),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(18),
         ),
@@ -136,6 +225,10 @@ class ExpenseScreen extends StatelessWidget {
             padding: const EdgeInsets.all(10.0),
             child: _makeExpenseSection(),
           ),
+          Padding(
+            padding: EdgeInsets.all(10),
+            child: _makeExpenseSection(),
+          )
         ],
       ),
     );
