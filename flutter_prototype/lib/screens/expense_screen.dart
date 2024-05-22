@@ -91,7 +91,7 @@ class ExpenseScreen extends StatelessWidget {
               left: 0,
               top: 0,
               child: Container(
-                width: 320,
+                width: 300,
                 height: 60,
                 decoration: ShapeDecoration(
                   color: Colors.white,
@@ -186,13 +186,17 @@ class ExpenseScreen extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Text(
-            'Today',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 20,
-              fontFamily: 'Inter',
-              fontWeight: FontWeight.w600,
+          Container(
+            alignment: Alignment.centerLeft,
+            padding: EdgeInsets.only(left: 10, top: 10),
+            child: Text(
+              'Today',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontFamily: 'Inter',
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
           _makeExpenseCard(),
