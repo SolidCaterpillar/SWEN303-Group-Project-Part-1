@@ -33,6 +33,7 @@
 - **Interests:** Enjoys social events and networking. Trying to improve tech skills.
 - **Personality:** Ambitious and socially active, attending university events and finance-related seminars.
 - **Goals:** Achieve a high GPA, secure internships, and eventually land a stable job in finance. Aims to improve technical skills.
+- **Disabilities:** Is colourblind with pronotypia, he appreciates designs that offer the flexibility around his condition.
 
 <br>
 
