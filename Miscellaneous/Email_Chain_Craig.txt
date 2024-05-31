@@ -1,0 +1,50 @@
+Kia ora Z’Arn,
+
+If you just do Figma that will be fine. Right there is no need to use Flutter but if you want to use that tool then that is fine. Happy for you to explore other technologies.
+
+Thanks.
+
+Ngā mihi,
+Craig
+
+> On 14/05/2024, at 8:51 PM, Z'Arn Payne <zian@payne.name> wrote:
+>
+> Kia ora Craig,
+>
+> We are definitely using Figma, however we are considering that our high-fidelity prototype be designed using Flutter.
+>
+> Thanks for your suggestion, I will delve into Flutter more and evaluate it against what we need as a group.
+>
+> Thanks,
+> Z'Arn
+>
+> On 14/05/2024 5:14 pm, Craig Anslow wrote:
+>> Kia ora Z’Am,
+>>
+>> Are you suggesting using Flutter instead of Figma or use both? I suggest you experiment with both and write up the results. Based on evaluation you can test out both technologies and write about them.
+>>
+>> Thanks.
+>>
+>> Ngā mihi,
+>> Craig
+>>
+>> Craig Anslow, PhD
+>> Senior Lecturer in Software Engineering
+>> Victoria University of Wellington, New Zealand
+>> craig.anslow@ecs.vuw.ac.nz
+>> http://homepages.ecs.vuw.ac.nz/~craig/
+>>
+>>> On 14/05/2024, at 4:39 PM, Z'Arn Payne <zian@payne.name> wrote:
+>>>
+>>> Kia ora,
+>>>
+>>> I'm just following up from today's lecture on the viability of using Flutter for today's course. My team have decided that we are likely looking at creating a mobile app.
+>>>
+>>> We want to incorporate higher levels of UI features such as scrolling and swiping, and were curious about approaches to do this. To do this, we feel as though using a UI framework such as Flutter would be helpful for this task. We aren't interested in designing a back-end, just the tools for designing a UI.
+>>>
+>>> Would this fall within the scope of the course, or would sticking to a very high fidelity Figma prototype be better? Please click the link below for Flutter's homepage.
+>>>
+>>> Thanks,
+>>> Z'Arn
+>>>
+>>> https://flutter.dev/
