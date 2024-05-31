@@ -1,3 +1,7 @@
+# Accessing Figma Files and Youtube 
+
+To access our youtube video and figma files for this project, please look at the "links" file in this folder.
+
 # Background
 
 This document outlines the key features and functionalities of our finance management application designed to handle the complexities of managing shared expenses in a household setting. The application aims to simplify the tracking of various types of expenses, enabling users to effectively manage and monitor household finances. The interface is expected to follow **Google's Material Design guideline**s, providing a clean and intuitive user experience.
