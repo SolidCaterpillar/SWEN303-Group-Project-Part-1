@@ -20,13 +20,9 @@ When considering the types of data that can be collected, there are various fact
 
 These would primarily focus on the functionality of the website. By identifying pain points, we can iterate on these findings to improve user experience.
 
-If we were to use eyetracking, we should consider collecting the data and presenting them in the form of 
+If we were to use eyetracking, we should consider collecting the data and presenting them in the form of heatmaps, this would provide understanding of how our app captures user attention. By identifying gaze patterns or user blindess of components, we can recognise and redesign our app to account for a user's attention within the app.
 
-This research can produce three types of visualizations:
-
-Gazeplots (qualitative)
-Gaze replays (qualitative)
-Heatmaps (quantitative)
+https://www.nngroup.com/articles/eyetracking-setup/
 
 
 #### Post Test Metrics
@@ -44,6 +40,8 @@ Going back to the topic of eyetracking, we could consider the use of gazeplots, 
 https://www.nngroup.com/articles/eyetracking-setup/
 
 ## Procedures and Key Tasks
+
+(For eyetracking work): https://www.nngroup.com/articles/eyetracking-setup/
 
 ### Procedures
 
