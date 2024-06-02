@@ -1,6 +1,8 @@
 # Test Design
 
-Our following test's design will cover the following components
+The following document will outline the steps taken to improve the User Experience of our flat expense sharing app.
+
+The following document will cover the following components:
 * Design and Purpose
 * Data Types and Collection
 * Procedures and Key Tasks 
