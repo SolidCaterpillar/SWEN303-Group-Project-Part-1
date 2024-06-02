@@ -10,8 +10,7 @@ The following document will cover the following components:
 
 
 ## Data Types and Collection
-
-### Quantitative
+### Quantitative Data
 #### During the Test
 When considering the types of data that can be collected, there are various factors that we would want to test:
 * Time spent on Tasks
@@ -19,6 +18,8 @@ When considering the types of data that can be collected, there are various fact
 * Moments of confusion
 
 These would primarily focus on the functionality of the website. By identifying pain points, we can iterate on these findings to improve user experience.
+
+Moments of confusion were a metric that we found useful when conducting discount usability engineering. By quantifying moments of confusion, we can mesaure how long it takes users to recover from errors. To do this, we can take our recordings and count the time it takes users to recover from moments of confusion. One negative to this approach could be that it may be time-consuming to identify and record these errors. It may also be subjective as to whether a moment is one of confusion or just a loss of focus for example.
 
 If we were to use eyetracking, we should consider collecting the data and presenting them in the form of heatmaps, this would provide understanding of how our app captures user attention. By identifying gaze patterns or user blindess of components, we can recognise and redesign our app to account for a user's attention within the app.
 
@@ -32,7 +33,7 @@ If we were to use the SUS method, it would provide a quick-quantitative measurem
 
 https://www.interaction-design.org/literature/article/system-usability-scale
 
-## Qualitative
+### Qualitative Data
 Here, we would be aiming to get a more nuanced view on the experience of our app. Due to the nature of how we are undergoing our testing. We should go forward with focus groups to get a 
 
 Going back to the topic of eyetracking, we could consider the use of gazeplots, or replays for a qualitative visualisation of the user's experience.
@@ -52,7 +53,7 @@ https://www.nngroup.com/articles/eyetracking-setup/
 ## Participants and Consent
 
 ### Participants
-Consider making one of them 'colour blind' using a system filter
+Consider making one of them 'colour blind' using a system filter.
 
 
 
