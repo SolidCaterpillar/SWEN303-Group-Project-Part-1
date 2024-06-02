@@ -53,7 +53,7 @@ https://www.nngroup.com/articles/eyetracking-setup/
 ## Participants and Consent
 
 ### Participants
-Consider making one of them 'colour blind' using a system filter.
+Consider making one of them 'colour blind' using a system filter. https://apps.microsoft.com/detail/9nblggh4385h?SilentAuth=1&f=255&MSPPError=-2147217396&activetab=pivot%3Aoverviewtab&hl=en-us&gl=US
 
 
 
